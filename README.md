@@ -2,6 +2,8 @@
 
 Snippets with code editor and syntax highlighting.
 
+![preview](preview.png)
+
 ## Installation
 
 Install using pip:
