@@ -1,5 +1,8 @@
 # Aldryn Snippet
 
+[![Build Status](https://travis-ci.org/aldryn/aldryn-snippet.svg?branch=master)](https://travis-ci.org/aldryn/aldryn-snippet)
+[![Coverage Status](https://img.shields.io/coveralls/aldryn/aldryn-snippet.svg)](https://coveralls.io/r/aldryn/aldryn-snippet)
+
 Snippets with code editor and syntax highlighting.
 
 ![preview](preview.png)
