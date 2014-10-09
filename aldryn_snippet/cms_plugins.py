@@ -15,5 +15,4 @@ class Snippet(CMSPluginBase):
     change_form_template = 'aldryn_snippet/admin/snippet_change_form.html'
     render_template = 'aldryn_snippet/snippet.html'
 
-
 plugin_pool.register_plugin(Snippet)
