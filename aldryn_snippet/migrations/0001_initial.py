@@ -1,13 +1,26 @@
 # -*- coding: utf-8 -*-
-from south.v2 import SchemaMigration
+from __future__ import unicode_literals
+
+from django.db import models, migrations
 
 
-class Migration(SchemaMigration):
-    def forwards(self, orm):
-        pass
+class Migration(migrations.Migration):
 
-    def backwards(self, orm):
-        pass
+    dependencies = [
+        ('cms', '0003_auto_20140926_2347'),
+    ]
 
-    models = {}
-    complete_apps = ['aldryn_snippet']
+    operations = [
+        migrations.CreateModel(
+            name='SnippetPlugin',
+            fields=[
+                ('cmsplugin_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
+                ('name', models.CharField(max_length=255, verbose_name='Name')),
+                ('content', models.TextField(verbose_name='Content')),
+            ],
+            options={
+                'abstract': False,
+            },
+            bases=('cms.cmsplugin',),
+        ),
+    ]
