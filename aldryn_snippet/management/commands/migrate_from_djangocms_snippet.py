@@ -9,7 +9,7 @@ from cms import api
 try:
     from djangocms_snippet.models import Snippet as OldSnippet
     from djangocms_snippet.cms_plugins import SnippetPlugin as OldSnippetPlugin
-except ImportError:
+except ImportError:  # pragma: no cover
     OldSnippet, OldSnippetPlugin = None
 
 from ...cms_plugins import Snippet
