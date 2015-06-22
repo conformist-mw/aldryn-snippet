@@ -1,17 +1,6 @@
 {
-  "name": "Aldryn Snippet",
-  "description": "Snippets",
-  "url": "https://github.com/aldryn/aldryn-snippet",
   "package-name": "aldryn-snippet",
   "installed-apps": [
     "aldryn_snippet"
-  ],
-  "author": {
-    "name": "Divio AG",
-    "url": "divio.ch"
-  },
-  "license": {
-    "name": "BSD",
-    "text": "!literal-include LICENSE.txt"
-  }
+  ]
 }
