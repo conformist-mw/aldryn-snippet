@@ -5,6 +5,14 @@
 
 Snippets with code editor and syntax highlighting.
 
+Aldryn Snippet allows you to insert arbitrary code into an HTML document.
+
+Aldryn Snippet is intended as a quick and convenient tool for developers. It is not intended for everyday content
+management usage.
+
+**Warning**: as Snippet permits the insertion of arbitrary code, **careless use can represent a security risk**. 
+Aldryn Snippet must be used appropriately and with caution.
+
 ![preview](preview.png)
 
 ## Installation
