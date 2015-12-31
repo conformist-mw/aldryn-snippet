@@ -1,6 +1,5 @@
 -r base.txt
 Django>=1.5,<1.6
-#django-cms>=3.0,<3.1
 django-discover-runner
 django-mptt>=0.6,<0.8
 djangocms-helper>=0.8,<0.9
