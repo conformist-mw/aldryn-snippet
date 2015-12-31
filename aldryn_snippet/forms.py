@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django import forms
+from django import forms, VERSION as DJANGO_VERSION
 from django.conf import settings
 
 from .models import SnippetPlugin
@@ -16,6 +16,8 @@ class SnippetForm(forms.ModelForm):
                 }
             )
         }
+        if DJANGO_VERSION >= (1, 6):
+            fields = '__all__'
 
     def __init__(self, *args, **kwargs):
         super(SnippetForm, self).__init__(*args, **kwargs)

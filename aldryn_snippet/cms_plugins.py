@@ -9,7 +9,7 @@ from .forms import SnippetForm
 
 
 class Snippet(CMSPluginBase):
-    name = _('Snippet')
+    name = _('Snippet with syntax highlighting')
     model = SnippetPlugin
     form = SnippetForm
     change_form_template = 'aldryn_snippet/admin/snippet_change_form.html'
