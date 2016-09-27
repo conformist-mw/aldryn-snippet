@@ -3,8 +3,7 @@ from setuptools import setup, find_packages
 from aldryn_snippet import __version__
 
 REQUIREMENTS = [
-    'django-cms>=3.0,<3.3',
-    'djangocms_snippet>=1.4,<1.8',
+    'django-cms>=3.0',
     'django-mptt>=0.6,<0.9',
 ]
 
