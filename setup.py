@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 from aldryn_snippet import __version__
 
 REQUIREMENTS = [
-    'django-cms>=3.0',
-    'django-mptt>=0.6,<0.9',
+    'django-cms>=3.5',
+    'django-mptt>=0.9',
 ]
 
 CLASSIFIERS = [
