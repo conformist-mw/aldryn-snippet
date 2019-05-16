@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from django.utils.translation import ugettext_lazy as _
 
 from cms.plugin_base import CMSPluginBase
@@ -14,5 +13,6 @@ class Snippet(CMSPluginBase):
     form = SnippetForm
     change_form_template = 'aldryn_snippet/admin/snippet_change_form.html'
     render_template = 'aldryn_snippet/snippet.html'
+
 
 plugin_pool.register_plugin(Snippet)

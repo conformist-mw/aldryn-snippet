@@ -28,7 +28,7 @@ class Randomness(object):
         Returns a N(amount) random strings with length ``length`` which have not been used in this class before
         """
         rands = []
-        for i in xrange(amount):
+        for i in range(amount):
             rand = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(length))
             if rand in self.used:
                 rand = self.get(length)  # pragma: no cover
@@ -69,7 +69,7 @@ class SnippetTestCase(TestCase, BaseCMSTestCase):
         self.assertContains(response, content)
 
         # Test the unicode method
-        self.assertEqual(plugin.__unicode__(), unicode(name))
+        self.assertEqual(plugin.__str__(), str(name))
 
     def test_add_snippet_plugin_client(self):
         self.client.login(username=self.su_username, password=self.su_password)
